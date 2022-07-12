@@ -28,7 +28,7 @@ int main()
     if (ans == -1)
         cout << "The element is not present in the array." << endl;
     else
-        cout << "The element is present at the position " << ans+1 << endl;
+        cout << "The element is present at the position " << ans + 1 << endl;
     return 0;
 }
 // Time Complexity=O(n)
