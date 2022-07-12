@@ -35,8 +35,8 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
-        if(i==n-1)
-        break;
+        if (i == n - 1)
+            break;
     }
     cout << endl;
     cout << "Enter the element to be searched: ";
