@@ -1,5 +1,4 @@
 #include <iostream>
-// #include <algorithm>
 #include <vector>
 using namespace std;
 void SelectionSort(vector<int> arr, int n)
@@ -12,9 +11,8 @@ void SelectionSort(vector<int> arr, int n)
         {
             if (arr[j] < arr[min])
                 min = j;
-            swap(arr[i], arr[min]);
         }
-        
+        swap(arr[i], arr[min]);
     }
     for (int x : arr)
     {
@@ -36,3 +34,5 @@ int main()
     SelectionSort(arr, n);
     return 0;
 }
+// Time Complexity=O(n^2)
+// Space Complexity=O(1)
