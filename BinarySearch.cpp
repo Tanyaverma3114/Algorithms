@@ -31,7 +31,7 @@ int main()
         arr.push_back(a);
     }
     sort(arr.begin(), arr.end());
-    cout << "Arayy in ascending order: ";
+    cout << "Array in ascending order: ";
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
